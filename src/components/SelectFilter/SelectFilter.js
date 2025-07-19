@@ -12,7 +12,7 @@ export default function renderSelectFilter(initialValue = '', onChange, onOpen =
 
     const imgArrow = document.createElement('img');
     imgArrow.className = 'select-filter__arrow';
-    imgArrow.src = 'icons/iconOpenSelect.svg';
+    imgArrow.src = '/COLORS-shop/icons/iconOpenSelect.svg';
     imgArrow.alt = 'arrow icon';
     button.appendChild(imgArrow);
 

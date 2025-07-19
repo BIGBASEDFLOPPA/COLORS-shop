@@ -8,7 +8,7 @@ export default function renderCart() {
     <div class="cart__header">
       <h2 class="cart__title">Корзина</h2>
       <button class="cart__close" aria-label="Закрыть корзину">
-        <img src="icons/iconClose.svg" alt="Закрыть" />
+        <img src="/COLORS-shop/icons/iconClose.svg" alt="Закрыть" />
       </button>
     </div>
 
@@ -66,7 +66,7 @@ export default function renderCart() {
           <button class="cart__btn cart__btn--plus" aria-label="Плюс">+</button>
         </div>
         <button class="cart__btn cart__btn--remove" aria-label="Удалить">
-          <img src="icons/iconRemove.svg.svg" alt="Удалить" />
+          <img src="/COLORS-shop/icons/iconRemove.svg.svg" alt="Удалить" />
         </button>
       `;
 

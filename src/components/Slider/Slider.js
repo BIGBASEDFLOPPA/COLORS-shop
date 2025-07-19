@@ -1,5 +1,10 @@
 import './Slider.scss'
 import html from './Slider.html?raw'
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
+
+Swiper.use([Navigation, Pagination]);
 
 export default function renderSlider() {
     const wrapper = document.createElement('div')

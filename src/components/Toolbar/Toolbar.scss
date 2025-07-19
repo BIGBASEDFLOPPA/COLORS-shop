@@ -1,0 +1,65 @@
+@import "../../assets/scss/typography.scss";
+
+.catalog-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 72px 64px 44px;
+
+  @media (max-width: 800px) {
+    padding: 32px 16px 16px;
+  }
+
+  &__title {
+    display: none;
+    @media (max-width: 700px) {
+      display: inline-block;
+      @include text-style(36px,$fw-regular,88%,-4%)
+    }
+  }
+
+  &__controls-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+    @media (max-width: 800px) {
+      gap: 8px;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    }
+  }
+
+  &__count {
+    @include text-style(12px, $fw-medium, 100%, 6%, true);
+    color: #000;
+
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+}
+
+.toolbar__filters-btn {
+  @include text-style(12px, $fw-medium, 100%, 6%, true);
+  display: none;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+  @media (max-width: 800px) {
+    display: inline-block;
+  }
+}
+
+.select-filter--custom {
+  position: relative;
+  font-size: 14px;
+  white-space: nowrap;
+
+  @media (max-width: 800px) {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,70 @@
+.select-filter {
+  position: relative;
+  display: inline-block;
+  font-family: inherit;
+
+  &__button {
+    @include text-style(12px, $fw-medium, 100%, 6%, true);
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    min-width: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    user-select: none;
+
+    &:focus {
+      outline: none;
+      z-index: 9999;
+    }
+  }
+
+  &__text {
+    flex-grow: 1;
+  }
+
+  &__arrow {
+    margin-left: 8px;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  &.select-filter--open {
+    .select-filter__arrow {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: none;
+
+    &.open {
+      display: block;
+    }
+  }
+
+  &__option {
+    @include text-style(12px, $fw-medium, 100%, 6%, true);
+    padding: 10px 16px;
+    cursor: pointer;
+
+    &:hover,
+    &.selected {
+      background: #7BB899;
+    }
+  }
+}

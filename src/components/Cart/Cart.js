@@ -66,7 +66,7 @@ export default function renderCart() {
           <button class="cart__btn cart__btn--plus" aria-label="Плюс">+</button>
         </div>
         <button class="cart__btn cart__btn--remove" aria-label="Удалить">
-          <img src="/COLORS-shop/icons/iconRemove.svg.svg" alt="Удалить" />
+          <img src="/COLORS-shop/icons/iconRemove.svg" alt="Удалить" />
         </button>
       `;
 

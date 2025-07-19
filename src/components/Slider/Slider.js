@@ -1,14 +1,16 @@
-import './Slider.scss'
-import html from './Slider.html?raw'
+import './Slider.scss';
+import html from './Slider.html?raw';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/swiper-bundle.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 Swiper.use([Navigation, Pagination]);
 
 export default function renderSlider() {
-    const wrapper = document.createElement('div')
-    wrapper.innerHTML = html.trim()
+    const wrapper = document.createElement('div');
+    wrapper.innerHTML = html.trim();
 
     setTimeout(() => {
         new Swiper('.swiper', {
@@ -21,8 +23,8 @@ export default function renderSlider() {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-        })
-    }, 0)
+        });
+    }, 0);
 
-    return wrapper.firstChild
+    return wrapper.firstChild;
 }

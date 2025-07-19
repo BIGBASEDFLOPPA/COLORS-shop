@@ -1,13 +1,13 @@
-@import './typography';
-@import '../../components/Header/Header';
-@import '../../components/Slider/Slider.scss';
-@import '../../components/Catalog/Catalog.scss';
-@import '../../components/SwitchFilter/Switchfilters.scss';
-@import '../../components/Overlay/Overlay.scss';
-@import '../../components/Cart/Cart.scss';
-@import '../../components/Toolbar/Toolbar.scss';
-@import '../../components/SelectFilter/SelectFilter.scss';
-@import '../../components/Loader/Loader.scss';
+@import 'typography';
+@import '../../../src/components/Header/Header';
+@import '../../../src/components/Slider/Slider';
+@import '../../../src/components/Catalog/Catalog';
+@import '../../../src/components/SwitchFilter/SwitchFilters';
+@import '../../../src/components/Overlay/Overlay';
+@import '../../../src/components/Cart/Cart';
+@import '../../../src/components/Toolbar/Toolbar';
+@import '../../../src/components/SelectFilter/SelectFilter';
+@import '../../../src/components/Loader/Loader';
 
 html,body {
   margin: 0;

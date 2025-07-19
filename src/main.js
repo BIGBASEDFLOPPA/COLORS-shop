@@ -1,4 +1,4 @@
-import './assets/scss/main.scss';
+import '../public/assets/scss/main.scss';
 
 import renderHeader from './components/Header/Header.js';
 import renderSlider from './components/Slider/Slider.js';

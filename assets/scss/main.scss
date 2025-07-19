@@ -1,0 +1,66 @@
+@import 'typography';
+@import '../../../src/components/Header/Header';
+@import '../../../src/components/Slider/Slider';
+@import '../../../src/components/Catalog/Catalog';
+@import '../../../src/components/SwitchFilter/SwitchFilters';
+@import '../../../src/components/Overlay/Overlay';
+@import '../../../src/components/Cart/Cart';
+@import '../../../src/components/Toolbar/Toolbar';
+@import '../../../src/components/SelectFilter/SelectFilter';
+@import '../../../src/components/Loader/Loader';
+
+html,body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 1800px;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.page-end {
+  width: 100%;
+  height: 200px;
+  background: #000;
+  margin-top: 40px;
+
+  @media (max-width: 768px) {
+    height: 100px;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 480px) {
+    height: 100px;
+    margin-top: 20px;
+  }
+}
+.breadcrumbs {
+  @include text-style(10px,$fw-regular,100%,6%,true);
+  display: none;
+  color: #C4C4C4;
+  opacity: 0.8;
+  padding: 12px 20px;
+  background: #fff;
+  user-select: none;
+
+  a {
+    color: #C4C4C4;
+    text-decoration: none;
+  }
+
+  .separator {
+    margin: 0 6px;
+  }
+
+  @media (max-width: 700px) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

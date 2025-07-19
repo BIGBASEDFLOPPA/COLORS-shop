@@ -53,7 +53,7 @@
     <div class="swiper">\r
         <div class="swiper-wrapper">\r
             <div class="swiper-slide">\r
-                <img src="./src/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -67,7 +67,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="./src/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -81,7 +81,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="./src/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -102,7 +102,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="./src/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -116,7 +116,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="./src/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r

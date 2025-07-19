@@ -1,0 +1,33 @@
+$font-main: 'Inter', sans-serif;
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-30: 30px;
+
+$ls-tight: -2%;
+$ls-normal: 0%;
+$ls-wide: 2%;
+$ls-wider: 6%;
+
+
+@mixin text-style($size, $weight, $line-height: 100%, $letter-spacing: 0, $uppercase: false, $align: null) {
+  font-family: $font-main;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+
+  @if $uppercase {
+    text-transform: uppercase;
+  }
+
+  @if $align != null {
+    text-align: $align;
+  }
+}

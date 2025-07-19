@@ -53,7 +53,7 @@
     <div class="swiper">\r
         <div class="swiper-wrapper">\r
             <div class="swiper-slide">\r
-                <img src="COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -67,7 +67,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -81,7 +81,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -102,7 +102,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -116,7 +116,7 @@
                 </div>\r
             </div>\r
             <div class="swiper-slide">\r
-                <img src="COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
+                <img src="/COLORS-shop/assets/images/slider1.png" alt="Краска" class="slider__image" />\r
                 <div class="slider__breadcrumbs">\r
                     <span>Главная</span>\r
                     <span class="slider__dot">•</span>\r
@@ -187,7 +187,7 @@
           <button class="cart__btn cart__btn--plus" aria-label="Плюс">+</button>
         </div>
         <button class="cart__btn cart__btn--remove" aria-label="Удалить">
-          <img src="/COLORS-shop/icons/iconRemove.svg.svg" alt="Удалить" />
+          <img src="/COLORS-shop/icons/iconRemove.svg" alt="Удалить" />
         </button>
       `,m.querySelector(".cart__btn--minus").addEventListener("click",()=>{te.decrease(u.id)}),m.querySelector(".cart__btn--plus").addEventListener("click",()=>{te.increase(u.id)}),m.querySelector(".cart__btn--remove").addEventListener("click",()=>{te.remove(u.id)}),s.appendChild(m)})}te.subscribe(c=>{a(c)});let o=null;return e.addEventListener("click",()=>{t.classList.remove("cart--open"),typeof o=="function"&&o()}),n.addEventListener("click",()=>{te.clear()}),{element:t,open(){t.classList.add("cart--open")},close(){t.classList.remove("cart--open")},setOnCloseCallback(c){o=c}}}const U=document.getElementById("app"),Rr=xs();U.appendChild(Rr);const ct=document.createElement("nav");ct.className="breadcrumbs";ct.innerHTML=`
   <a href="#">Главная</a>
